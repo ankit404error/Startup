@@ -18,8 +18,7 @@ const Navbar = () => {
           <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
           <Link to="/about" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">About</Link>
           <Link to="/contactus" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Contact Us</Link>
-          <Link to="/login" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Login</Link>
-          <Link to="/register" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Register</Link>
+          <Link to="/authpage" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Login</Link>
         </div>
 
         <button className="md:hidden text-white focus:outline-none" onClick={toggleMenu}>

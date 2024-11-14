@@ -3,8 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
-import Login from './pages/Login';
-import Register from './pages/Register';
+import Authpage from './pages/Authpage';
 import BookAppointment from './pages/BookAppointment'
 
 
@@ -15,8 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/authpage" element={<Authpage />} />
         <Route path="/admindashboard" element={<AdminDashboard />} />
         <Route path="/bookappointment" element={<BookAppointment />} />
       </Routes>
