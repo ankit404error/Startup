@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
 import bgImage from '../assets/authpage.jpg'; 
 import { useState } from 'react';
+import Footer from '../components/Footer';
 
 const Authpage = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -60,6 +61,7 @@ const Authpage = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
