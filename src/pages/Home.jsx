@@ -32,7 +32,7 @@ export default function Home() {
       <section className="flex flex-col items-center py-12 md:flex-row md:justify-between bg-[#dec7a6]">
         <div className="max-w-md text-center md:text-left">
           <h2 className="text-3xl font-bold ml-20">BOOK YOUR SALON APPOINTMENT NOW</h2>
-          <p className="mt-4 ml-20">Book your barber now with just in two clicks and have a better service experience now</p>
+          <p className="mt-4 ml-30 md:ml-20">Book your barber now with just in two clicks and have a better service experience now</p>
           <div className="flex gap-8 mt-6">
             <div className="text-center">
               <h3 className="text-2xl font-bold ml-6">99%</h3>
