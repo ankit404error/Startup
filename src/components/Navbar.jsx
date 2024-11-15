@@ -7,7 +7,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 bg-opacity-70 p-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img src="/LOGO.jpg" alt="Logo" className="h-12 w-12 rounded-full" style={{ height: '50px', width: '50px' }} />
